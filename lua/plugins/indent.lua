@@ -8,8 +8,8 @@ return {
     options = { try_as_border = true },
     draw = {
       -- Delay (in ms) between event and start of drawing scope indicator
-      delay = 100
-    }
+      delay = 100,
+    },
   },
   init = function()
     vim.api.nvim_create_autocmd("FileType", {
